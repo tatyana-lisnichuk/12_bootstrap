@@ -1,0 +1,163 @@
+.bacg_color {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #60606e;
+  font-size: 14px;
+}
+.wrapper {
+  margin: auto;
+  max-width: 1300px;
+  min-height: 1000px;
+  /* background-color: aquamarine; */
+}
+.first_page_container {
+  background-image: url(../img/services1_01.jpg);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.first_page_container,
+.what_we_do_container {
+  padding: 30px 80px;
+}
+.navigation {
+  padding: 20px 0px;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: currentColor;
+}
+.navigation :nth-child(2) {
+  text-align: right;
+}
+.title,
+.what_we_do_title {
+  text-transform: uppercase;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title,
+.what_we_do_title {
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+.bi.bi-list {
+  font-size: 28px;
+}
+.shape::before {
+  content: "";
+  width: 70px;
+  height: 23px;
+  background-color: #7beec7;
+  position: absolute;
+  margin-top: 15px;
+  z-index: -1;
+}
+.shape_icon::before {
+  content: "";
+  width: 50px;
+  height: 20px;
+  background-color: #7beec7;
+  position: absolute;
+  margin-top: 30px;
+  z-index: -1;
+}
+h2 + p {
+  text-transform: none;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+}
+.what_we_do_text {
+  color: #888892;
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 15px;
+}
+.what_we_do_image {
+  width: 526px;
+  height: 362px;
+}
+.layer_img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+[type="checkbox"] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+}
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 14px;
+}
+.custom-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #7beec7;
+  margin-right: 8px;
+  color: #888892;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.custom-checkbox:checked + label::before {
+  border-color: #7beec7;
+  background-color: #7beec7;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+.icons {
+  width: 70px;
+  height: 50px;
+  margin: auto;
+}
+.icon_image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.card_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.card_text {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+.what_we_do_content {
+  min-height: 515px;
+}
+.benefits_container {
+  min-height: 335px;
+}
