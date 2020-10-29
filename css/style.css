@@ -244,7 +244,6 @@ a.get_in_touch_button {
 }
 .footer_menu_item {
   font-family: "Open Sans", sans-serif;
-
   margin-right: 10px;
   /* background-color: khaki; */
 }
@@ -266,20 +265,22 @@ a.get_in_touch_button {
 .form_input_email {
   outline: none;
   border: #cdcdcd solid 1px;
-  padding: 20px;
+  padding: 20px 20px 17px 20px;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #cdcdcd;
   width: 310px;
   margin-right: 0px;
+  margin-top: -5px;
 }
 .submit_button {
+  margin: 0;
   width: 130px;
-  height: 61px;
+  height: 57px;
   outline: none;
   border-radius: 0%;
-  border: none;
+
   color: #ffff;
   background-color: #7beec7;
   margin-left: -5px;
@@ -297,6 +298,10 @@ a.get_in_touch_button {
   text-transform: uppercase;
   font-size: 14px;
   color: #60606e;
+}
+.footer_menu_list a:hover {
+  opacity: 0.5;
+  transition: 0.2s ease-in;
 }
 .social {
   text-align: end;
