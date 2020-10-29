@@ -31,7 +31,10 @@ h2 + p {
 .what_we_do_container,
 .pricing_plans_container,
 .footer_mail_box,
-.footer_footer {
+.footer_footer,
+.about_information,
+.dream_team_grid,
+.benefits_grid {
   padding: 30px 80px;
 }
 .navigation {
@@ -120,12 +123,12 @@ a:visited {
 .what_we_do_content {
   min-height: 515px;
 }
-.benefits_container {
-  min-height: 335px;
-}
 .list_of_activities {
-  line-height: 2.5;
+  line-height: 1.5;
   margin-bottom: 20px;
+}
+.card_list_of_activities {
+  line-height: 2.5;
 }
 .monthly_button {
   padding: 8px 20px;
@@ -162,7 +165,8 @@ ul {
   transition: 0.2s ease-in;
 }
 a.get_started_button,
-a.monthly_button {
+a.monthly_button,
+a.read_more_button {
   color: #ffff;
   text-transform: uppercase;
 }
@@ -195,7 +199,7 @@ a.monthly_button {
   background-color: #7beec7;
 }
 .pricing_plans_container {
-  /* min-height: 830px; */
+  min-height: 830px;
 }
 .footer {
   min-height: 490px;
@@ -245,7 +249,6 @@ a.get_in_touch_button {
 .footer_menu_item {
   font-family: "Open Sans", sans-serif;
   margin-right: 10px;
-  /* background-color: khaki; */
 }
 .email_title {
   font-family: "Montserrat", sans-serif;
@@ -275,7 +278,6 @@ a.get_in_touch_button {
   margin-top: -5px;
 }
 .submit_button {
-  margin: 0;
   width: 130px;
   height: 57px;
   outline: none;
@@ -306,8 +308,7 @@ a.get_in_touch_button {
 .social {
   text-align: end;
 }
-.footer_footer {
-}
+
 .created {
   text-align: right;
 }
@@ -317,4 +318,41 @@ a.get_in_touch_button {
 .social_icon:hover {
   opacity: 0.5;
   transition: 0.2s ease-in;
+}
+/* about file styles */
+
+.after_title_slogan {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #60606e;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.about_information {
+  margin-top: 100px;
+}
+
+.article_text {
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+}
+.read_more_button {
+  padding: 20px 30px;
+  background-color: #7beec7;
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: #7beec7 1px solid;
+}
+.read_more_button:hover {
+  background-color: #fff;
+  color: #7beec7;
+  border: #7beec7 1px solid;
+  transition: 0.2s ease-in;
+}
+.read_more_button_margins {
+  /* margin-bottom: 50px;
+  margin-top: 50px; */
 }
