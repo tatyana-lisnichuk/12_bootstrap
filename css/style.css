@@ -34,7 +34,8 @@ h2 + p {
 .footer_footer,
 .about_information,
 .dream_team_grid,
-.benefits_grid {
+.benefits_grid,
+.about_autor {
   padding: 30px 80px;
 }
 .navigation {
@@ -124,7 +125,7 @@ a:visited {
   min-height: 515px;
 }
 .list_of_activities {
-  line-height: 1.5;
+  line-height: 2;
   margin-bottom: 20px;
 }
 .card_list_of_activities {
@@ -308,7 +309,6 @@ a.get_in_touch_button {
 .social {
   text-align: end;
 }
-
 .created {
   text-align: right;
 }
@@ -319,6 +319,7 @@ a.get_in_touch_button {
   opacity: 0.5;
   transition: 0.2s ease-in;
 }
+
 /* about file styles */
 
 .after_title_slogan {
@@ -353,6 +354,79 @@ a.get_in_touch_button {
   transition: 0.2s ease-in;
 }
 .read_more_button_margins {
-  /* margin-bottom: 50px;
-  margin-top: 50px; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.photo_div {
+  height: 335px;
+  width: 260px;
+  /* background-color: yellow; */
+}
+.photo_div,
+.partners_photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  /* background-color: #blue; */
+}
+.icon_square {
+  width: 41px;
+  height: 43px;
+  background-color: #7beec7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefits_icon {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.member_photo_div {
+  margin-bottom: 30px;
+}
+.grid_item_header {
+  position: relative;
+}
+.benefits_name {
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-weight: 18px;
+}
+.benefits_text {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.submit_container {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  background-color: brown;
+  background-color: #efeff0;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 28px;
+}
+.parters {
+  width: 170px;
+  height: 100px;
+  margin-bottom: 28px;
+}
+.partners_photo {
+  border: 1px solid #d9d9d9;
+}
+.john_doe_photo,
+.john_doe_text,
+.john_doe_button {
+  text-align: center;
+}
+.john_doe_button {
+  padding: 8px 10px;
 }
